@@ -1,0 +1,30 @@
+body{
+	background-color: #d2d2d2;
+}
+#head1{
+	font-size: 47px;
+}
+b, strong{
+	font-weight: 900;
+}
+#ju{
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 400px;
+	margin-left: 600px;
+	background-color: white;
+	height: 500px;
+}
+#la{
+	margin-bottom: 0px;
+}
+#b1{
+	width: 350px;
+	margin-top: 10px;
+}
+#l1{
+	font-size: 15px;
+}
+#b2{
+	width: 200px
+}

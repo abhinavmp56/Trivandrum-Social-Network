@@ -1,0 +1,20 @@
+{
+  "name": "tsn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start1.js",
+  "dependencies": {
+    "cowsay": "^1.1.9",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "goatsay": "^1.0.0",
+    "nedb": "^1.8.0",
+    "opn": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node start1.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

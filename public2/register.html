@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<h1 align="center" id="head1"><b>Trivandrum Social Network</b></h1>
+<br>
+<br>
+<div class="jumbotron" id="ju">
+<form action="/regsubmit" method="get">
+  <div class="form-group">
+	<label for="ba1" id="la">Your Name</label>
+	<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i> </span>
+  <input type="text" class="form-control" name="Name" placeholder="Enter your Name" aria-describedby="basic-addon1" id="ba1">
+</div>
+</div>
+<div class="form-group">
+	<label for="ba2" id="la">Your Email</label>
+	<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1"> <i class="fa fa-envelope" aria-hidden="true"></i></span>
+  <input type="Email" class="form-control" name="Email" placeholder="Enter your Email" aria-describedby="basic-addon2" id="ba2">
+</div>
+</div>
+<div class="form-group">
+	<label for="ba3" id="la">Username</label>
+	<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1"><i class="fa fa-users" aria-hidden="true"></i> </span>
+  <input type="text" class="form-control" name="uName" placeholder="Enter your Username" aria-describedby="basic-addon3" id="ba3">
+</div>
+</div>
+<div class="form-group">
+	<label for="ba4" id="la">Password</label>
+	<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1"><i class="fa fa-lock" aria-hidden="true"></i> </span>
+  <input type="Password" class="form-control" name="Password" placeholder="Enter your Password" aria-describedby="basic-addon4" id="ba4">
+</div>
+</div>
+
+<p align="center">
+<input type="submit" class="btn btn-primary btn-lg" value="Register" role="button" id="b1">
+</p>
+</form>
+
+<p align="center">
+<span id="l1">Already a user</span><br>
+<a class="btn btn-primary btn-lg" href="/login" role="button" id="b2">Login</a>
+</p>
+
+</div>
+
+</body>
+</html>
