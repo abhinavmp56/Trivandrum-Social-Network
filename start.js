@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const opn = require('opn')
-opn('http://localhost:3000/home','google chrome')
+//opn('http://localhost:3000/home','google chrome')
 app.use(express.static('public2'));
 var Datastore=require('nedb')
 app.set('port',process.env.PORT||5000)
