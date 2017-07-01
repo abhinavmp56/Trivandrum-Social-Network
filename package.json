@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start":"node start1.js"
+    "start":"node start.js"
   },
   "author": "",
   "license": "ISC"

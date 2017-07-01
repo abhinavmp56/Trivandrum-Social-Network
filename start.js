@@ -4,6 +4,7 @@ const opn = require('opn')
 opn('http://localhost:3000/home','google chrome')
 app.use(express.static('public2'));
 var Datastore=require('nedb')
+app.set('port',process.env.PORT||5000)
 app.set('view engine','ejs')
 app.set('port',process.env.PORT||5000)
 
@@ -80,6 +81,6 @@ dbreg.insert(person,function(err,result){
 
 
 
-app.listen(process.env.PORT || 5000, function () {
+app.listen(app.get('port'), function () {
   console.log('Example app listening on port 3000!')
 })	
